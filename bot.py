@@ -24,9 +24,8 @@ async def start(message: types.Message):
     )
 
     text = (
-        f"🔥 **Welcome {user.first_name}!**\n\n"
-        f"Your private invite link is ready below.\n"
-        f"Valid for **one user only**. Keep it safe!"
+        f"🔥 **Wᴇʟᴄᴏᴍᴇ {user.first_name}!**\n\n"
+        f"vᴀʟɪᴅ Fᴏʀ Oɴᴇ Uꜱᴇʀ Oɴʟʏ. Kᴇᴇᴘ Iᴛ Sᴀꜰᴇ!"
     )
 
     await message.answer(text, reply_markup=join_btn, parse_mode="Markdown")
